@@ -15,7 +15,7 @@ services:
         networks:
             - openstatus
         ports:
-            - "8080:8080"
+            - "8090:8080"
             - "5001:5001"
         volumes:
             - libsql-data:/var/lib/sqld
